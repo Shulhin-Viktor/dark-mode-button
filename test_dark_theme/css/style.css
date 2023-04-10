@@ -1,0 +1,103 @@
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+}
+
+body {
+   scroll-behavior: smooth;
+   line-height: 22px;
+   background-color: #fff;
+   color: black;
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+}
+
+.container {
+   width: 100%;
+   max-width: 1100px;
+   margin: 0 auto;
+}
+
+h1 {
+   margin-top: 40px;
+   text-align: center;
+   font-size: 24px;
+}
+
+p {
+   margin-top: 10px;
+}
+
+
+.grid-wrap {
+   margin-top: 30px;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 10px   ;
+}
+
+.grid-card { 
+   padding: 10px;
+max-width: 300px;
+max-height: 600px;
+border: solid 1px black;
+border-radius: 5px;
+justify-content: center;
+align-items: center;
+
+
+}
+
+.grid-card__title {	
+   text-align: center;
+
+}
+
+.grid-card__info {
+
+}
+
+.grid-card__pic {
+  
+
+}
+
+.theme-switch-btn {
+   position: fixed;
+   width: 50px;
+   height: 50px;
+   right: 100px;
+   top: 100px;
+   cursor: pointer;
+   border-radius: 50%;
+   border: 0;
+   background-color: rgba(0, 0, 0, 0);
+   
+}
+
+.btn-pic {
+   position: fixed;
+   right: 100px;
+   top: 100px;
+   width: 50px;
+   height: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: auto;
+  
+}
+
+
+
+body.dark-theme {
+   background-color: black;
+   color: white;
+}
+
+
+
